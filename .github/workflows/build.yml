@@ -23,6 +23,7 @@ jobs:
 
     - name: Build with Maven
       run: |
+        cd java
         mvn clean package
         
         # 重命名主JAR文件
