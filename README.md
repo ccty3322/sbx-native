@@ -21,7 +21,7 @@
 | `FILE_PATH` | `.npm` | 运行目录，存放动态库、配置、订阅和临时文件。 |
 | `SUB_PATH` | `sub` | 订阅token，例如 `/sub`。 |
 | `UUID` | `0a6568ff-ea3c-4271-9020-450560e10d63` | 节点 UUID。建议自行修改。 |
-| `NEZHA_SERVER` | 空 | 哪吒服务端地址。v1：`nezha.xxx.com:8008` v0: `nezha.xxx.com` |
+| `NEZHA_SERVER` | 空 | 哪吒面板地址。v1：`nezha.xxx.com:8008` v0: `nezha.xxx.com` |
 | `NEZHA_PORT` | 空 | 哪吒 v0 agent 端口；v1 留空。 |
 | `NEZHA_KEY` | 空 | 哪吒 v1 的 `NZ_CLIENT_SECRET` 或 v0 agent 密钥。 |
 | `ARGO_DOMAIN` | 空 | Cloudflare 固定隧道域名。为空时使用临时隧道。 |
